@@ -1,0 +1,8 @@
+ spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    url: ${SOBRA_DB_URL:jdbc:postgresql://localhost:5432/sobra}
+    username: ${SOBRA_DB_USER:sobra}
+    password: ${SOBRA_DB_PASSWORD:sobra_local_password}

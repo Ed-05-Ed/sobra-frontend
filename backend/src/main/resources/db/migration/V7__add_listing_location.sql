@@ -1,0 +1,4 @@
+ALTER TABLE listings
+    ADD COLUMN latitude DOUBLE PRECISION,
+    ADD COLUMN longitude DOUBLE PRECISION,
+    ADD COLUMN location_name VARCHAR(160);
